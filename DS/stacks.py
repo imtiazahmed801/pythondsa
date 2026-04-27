@@ -22,3 +22,7 @@ print(isEmpty)
 
 # size
 print(len(trifle_layers))
+
+print(trifle_layers[-1])
+
+print(trifle_layers)
