@@ -46,3 +46,12 @@ def power(base, exponent):
         return base * power(base, exponent - 1)
     
 print(power(2, 4))
+
+def fibonnaci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonnaci(n-1) + fibonnaci(n-2)
+    
+for i in range(10):
+    print(f"fibonnaci sequence:",{fibonnaci(i)})
